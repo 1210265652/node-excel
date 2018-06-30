@@ -35,6 +35,7 @@
     "request-promise": "4.2.2",
     "superagent": "3.8.3",
     "urlencode": "1.1.0",
-    "formidable": "1.2.1"
+    "formidable": "1.2.1",
+    "node-xlsx": "0.12.1"
   }
 }

@@ -19,6 +19,7 @@ window.onload = function () {
                     type: "post",
                     url: "/postExcelFile",
                     data: formData,
+                    enctype: "multipart/form-data",
                     dataType: 'JSON',
                     contentType: false,
                     processData: false,
