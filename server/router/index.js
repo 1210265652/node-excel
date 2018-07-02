@@ -9,5 +9,6 @@ module.exports = function(app) {
 	//get请求
 	router.get('/', controller('index')) //  compose.seletLang(),
 	router.post('/postExcelFile', controller('importFile'))
+	router.post('/uploadFile',controller('uploadFile'))
 	app.use(router.routes()).use(router.allowedMethods())
 }

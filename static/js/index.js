@@ -34,4 +34,16 @@ window.onload = function () {
             }
         }
     })
+    $('#uploadFile').click(() => {
+        $.ajax({
+            type: 'post',
+            url: '/uploadFile',
+            success: (data)=>{
+                console.log('下载数据', data)
+            },
+            error: (err)=>{
+                console.log('upload error', err)
+            }
+        })
+    })
 }
